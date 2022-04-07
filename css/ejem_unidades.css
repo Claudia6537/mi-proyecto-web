@@ -1,0 +1,47 @@
+/*@import url('https://googleapis.com/css2?family=Akronim8display=swap');
+*/
+html {
+    font-size: 20px;
+    font-family: 'Akronim', cursive;
+    /*font-size:0.5in;*/
+}
+
+/*
+Tamaño letra = px
+1cm=px
+
+*/
+
+#pa1{
+font-size: 0.8em;
+/*font-size:1in;*/
+}
+
+#pa2{
+    font-size: 0.1em;
+    /*font-size: 2.54cm;*/
+    color: green;
+}
+
+#pa3{
+    font-size: 1.3em;
+    /*font-size: 25.4cm;*/
+}
+
+#pa4{
+    font-size: 20px;
+    /*font-size: 6pc;*/
+    /*font-size: 72pt;*/
+    color: red;
+}
+
+#box{
+    width: 10em;
+    height: 5em;
+    text-align: center;
+    line-height: 4em;
+    /*background-color: red;*/
+    /*background-color: rgb(255,0,0);*/
+    background-color: rgb(100%,0%,0%);
+    /*background-color: #ff0000;*/
+}

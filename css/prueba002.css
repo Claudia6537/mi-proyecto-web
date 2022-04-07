@@ -3,12 +3,13 @@
    /* color:red;*/
 }
 html{
-    border: 3px violet dashed; 
+    border: 3px violet dashed;
     background-color:#C8D5AD;
 }
 body{
     width:80%; 
     border: 2px violet dashed;
+    background-color:goldenrod;
     margin: auto;
 }
 h1{
