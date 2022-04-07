@@ -1,0 +1,45 @@
+
+*{
+   /* color:red;*/
+}
+html{
+    border: 3px violet dashed; 
+    background-color:#C8D5AD;
+}
+body{
+    width:80%; 
+    border: 2px violet dashed;
+    margin: auto;
+}
+h1{
+    color: darkgreen; 
+    text-align:center;
+}
+#parrafo{
+    width:90%; 
+    margin: auto;
+}
+#parrafo p{
+    color:brown; 
+    text-align:center; 
+    width:80%; 
+    margin:auto;
+}
+#cuadro{
+    text-align: center;
+}
+#cuadro img{
+    width: 35%; 
+    border:5px pink solid; 
+    border-radius: 20px;
+}
+#cuadro p{
+    color: white; 
+    text-align: center; 
+    position: relative; 
+    bottom: 200px; 
+    left: 96px; 
+}
+ul{
+    color: darkolivegreen;
+}

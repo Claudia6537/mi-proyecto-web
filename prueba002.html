@@ -1,16 +1,63 @@
 <!DOCTYPE html>
-<html lang="es" style="background-color:bisque;">
+<html lang="es" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera página web con estilos en linea</title>
+    <link rel="stylesheet"" href="css/prueba002.css">
 </head>
-<body style="width:80%; margin: auto;">
-   <h1 style="color: darkgreen; text-align:center">Mi primera página web del curso</h1>
-   
-   <div style="width:90%; margin: auto;">
-    <p style="color:brown; text-align:center; width:80%; margin:auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aperiam ducimus distinctio perferendis, nemo ad minus et ratione harum magni consectetur voluptate sapiente sunt similique, perspiciatis nostrum voluptates odio veritatis. 
+<body>
+   <!-- 
+       <style>
+        html{
+            border: 3px violet dashed; 
+            background-color:#C8D5AD;
+        }
+        body{
+            width:80%; 
+            border: 2px violet dashed;
+            margin: auto;
+        }
+        h1{
+            color: darkgreen; 
+            text-align:center;
+        }
+        #parrafo{
+            width:90%; 
+            margin: auto;
+        }
+        #parrafo p{
+            color:brown; 
+            text-align:center; 
+            width:80%; 
+            margin:auto;
+        }
+        #cuadro{
+            text-align: center;
+        }
+        #cuadro img{
+            width: 35%; 
+            border:5px pink solid; 
+            border-radius: 20px;
+        }
+        #cuadro p{
+            color: white; 
+            text-align: center; 
+            position: relative; 
+            bottom: 200px; 
+            left: 96px; 
+        }
+        ul{
+            color: darkolivegreen;
+        }
+
+    </style>
+-->
+   <h1 >Mi primera página web del curso</h1>
+  <hr> 
+   <div id="parrafo">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aperiam ducimus distinctio perferendis, nemo ad minus et ratione harum magni consectetur voluptate sapiente sunt similique, perspiciatis nostrum voluptates odio veritatis. 
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quisquam omnis ipsa quidem sunt provident, animi minima ipsum iste error qui commodi a excepturi quam eveniet cumque harum assumenda. Neque. 
        
         
@@ -18,15 +65,15 @@
 </div>
 
 <br></br>
-<div style="text-align: center;">
+<div id="cuadro">
     <a href="https://mexicorutamagica.mx/2021/01/09/estas-son-las-flores-mexicanas-mas-hermosas/">
         
-        <img style="width: 35%; border:5px pink solid; border-radius: 20px;" src="img/flor1.jpg" alt="Flor">
-        <p style="color: white; text-align: center; position: relative; bottom: 140px; left: 50px; ">Comprar flores</p>
+        <img src="img/flor1.jpg" alt="Flor">
+        <p>Comprar flores</p>
     </a>
 </div>
 
-<ul style="color: darkolivegreen;">
+<ul>
     <li>Hojas</li>
     <li>Tallo</li>
     <li>Color</li>
