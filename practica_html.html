@@ -1,39 +1,75 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica_html</title>
+    <title>Mi primera práctica web con estilos en linea</title>
+ 
 </head>
 <body>
-    <h1 >Mi primera práctica web del curso</h1>
-    <hr> 
-    <div id="body">
-        <a href="https://mexicorutamagica.mx/2021/01/09/estas-son-las-flores-mexicanas-mas-hermosas/">
-            
-            <img src="img/flor1.jpg" alt="Flor">
-            <p>Comprar flores</p>
-        </a>
-    </div> 
-   <div>
-
-   </div>
-   <div>
-
-   </div>
-
-   <style>
-       body{
+    
+       <style>
+        html{
+            border: 3px violet dashed; 
+            background-color:#C8D5AD;
+        }
+        body{
             width:80%; 
-            border: 2px blue dashed;
+            border: 2px violet dashed;
+            background-color:goldenrod;
             margin: auto;
         }
-
         h1{
-            color: darkgoldenrod; 
+            color: darkgreen; 
             text-align:center;
         }
-   </style>
+       
+        #parrafo p{
+            color:brown; 
+            text-align:center; 
+            width:80%; 
+            margin:auto;
+        }
+        #cuadro{
+            text-align: center;
+        }
+        #cuadro img{
+            width: 35%; 
+            border:5px pink solid; 
+            border-radius: 20px;
+        }
+        #cuadro p{
+            color: white; 
+            text-align: center; 
+            position: relative; 
+            bottom: 200px; 
+            left: 96px; 
+        }
+        ul{
+            color: darkolivegreen;
+        }
+
+    </style>
+
+   <h1 >Mi primera página web del curso</h1>
+    <hr> 
+   
+
+<br></br>
+<div id="cuadro">
+    <a href="https://mexicorutamagica.mx/2021/01/09/estas-son-las-flores-mexicanas-mas-hermosas/">
+        
+        <img src="img/flor1.jpg" alt="Flor">
+        <p>Comprar flores</p>
+    </a>
+</div>
+
+<ul>
+    <li>Hojas</li>
+    <li>Tallo</li>
+    <li>Color</li>
+    <li>Aroma</li>
+</ul>
 </body>
 </html>
