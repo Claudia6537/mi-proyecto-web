@@ -18,12 +18,12 @@ h1{
 }
 
 h2{
-    color: rgb(243, 232, 121); 
-    text-align:left;
+    color: rgb(70, 40, 6); 
+    text-align:center;
 }
 
 h3{
-    color: rgb(229, 210, 5); 
+    color: rgb(56, 53, 14); 
     text-align:center;
 }
 
@@ -48,32 +48,88 @@ h3{
     margin:auto;
 }
 #seccion1{
-    text-align:left;
+    text-align:center;
     width:90%;
     border: 3px rgb(130, 143, 238) dashed; 
     background-color:#d5adad; 
     margin:auto;
+    
+
+}
+
+#seccion1 p{
+    color:brown; 
+    text-align:center; 
+    width:80%; 
+    margin:auto;
+}
+#seccion1 img{
+    text-align: right;
+    width: 200px;
+    height: 200px; 
+    border:3px rgb(14, 17, 75) solid; 
+    border-radius: 5px;
 }
 #seccion2{
-    text-align:left;
+    text-align:center;
     width:90%;
     border: 3px rgb(130, 143, 238) dashed; 
     background-color:#d5adad; 
     margin:auto;
+}
+
+#seccion2 p{
+    color:brown; 
+    text-align:center; 
+    width:80%; 
+    margin:auto;
+}
+#seccion2 img{
+    text-align: right;
+    width: 200px;
+    height: 200px; 
+    border:3px rgb(14, 17, 75) solid; 
+    border-radius: 5px;
 }
 #seccion3{
-    text-align:left;
+    text-align:center;
     width:90%;
     border: 3px rgb(130, 143, 238) dashed; 
     background-color:#d5adad; 
     margin:auto;
 }
+#seccion3 p{
+    color:brown; 
+    text-align:center; 
+    width:80%; 
+    margin:auto;
+}
+#seccion3 img{
+    text-align: right;
+    width: 200px;
+    height: 200px; 
+    border:3px rgb(14, 17, 75) solid; 
+    border-radius: 5px;
+}
 #seccion4{
-    text-align:left;
+    text-align:center;
     width:90%;
     border: 3px rgb(130, 143, 238) dashed; 
     background-color:#d5adad; 
     margin:auto;
+}
+#seccion4 p{
+    color:brown; 
+    text-align:center; 
+    width:80%; 
+    margin:auto;
+}
+#seccion4 img{
+    text-align: right;
+    width: 200px;
+    height: 200px; 
+    border:3px rgb(14, 17, 75) solid; 
+    border-radius: 5px;
 }
 #bloque3{
     width:100%;
@@ -95,3 +151,73 @@ h3{
     position: relative; 
     
 }
+#box1{
+    width: 15em;
+    height: 5em;
+    text-align: center;
+    line-height: 5em;
+    background-color: white;
+    border:1px rgb(5, 5, 5) solid; 
+}
+#box2{
+    width: 15em;
+    height: 5em;
+    text-align: center;
+    line-height: 5em;
+    background-color: white;
+    border:1px rgb(5, 5, 5) solid; 
+}
+#box3{
+    width: 15em;
+    height: 5em;
+    text-align: center;
+    line-height: 5em;
+    background-color: white;
+    border:1px rgb(5, 5, 5) solid; 
+}
+#box4{
+    width: 15em;
+    height: 5em;
+    text-align: center;
+    line-height: 5em;
+    background-color: white;
+    border:1px rgb(5, 5, 5) solid; 
+}
+#box5{
+    width: 9em;
+    height: 3em;
+    text-align: center;
+    line-height: 3em;
+    background-color: white;
+    border:1px rgb(5, 5, 5) solid; 
+    
+}
+
+
+#box6{
+    width: 9em;
+    height: 3em;
+    text-align: center;
+    line-height: 3em;
+    background-color: white;
+    border:1px rgb(5, 5, 5) solid; 
+}
+#box7{
+    width: 9em;
+    height: 3em;
+    text-align: center;
+    line-height: 3em;
+    background-color: white;
+    border:1px rgb(5, 5, 5) solid; 
+}
+#box8{
+    width: 9em;
+    height: 3em;
+    text-align: center;
+    line-height: 3em;
+    background-color: white;
+    border:1px rgb(5, 5, 5) solid; 
+}
+
+
+
