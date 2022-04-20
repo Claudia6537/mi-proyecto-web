@@ -125,3 +125,10 @@ body{
   li > p{
     margin: 0 5px;
   }
+  body {
+
+    font-family: 'Square Peg', cursive;
+    font-size: 18px;
+    color: #302d2d;4
+  
+  }
