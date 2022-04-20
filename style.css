@@ -98,14 +98,7 @@ body{
     margin-top: 20px;
     background-color: green;
     font-size: 12px;
-
-
-    font-family: 'Square Peg', cursive;
-    font-size: 18px;
-    color: #302d2d;4
-  
   }
-
   #pad {
     width: 148px;
     height: 65px;
@@ -132,4 +125,10 @@ body{
   li > p{
     margin: 0 5px;
   }
+  body {
+
+    font-family: 'Square Peg', cursive;
+    font-size: 18px;
+    color: #302d2d;4
   
+  }
